@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Shopping Website</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Light blue background */
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #00796b; /* Teal color for headings */
+        }
+
+        p {
+            text-align: justify;
+            margin: 0 15px;
+            color: #333; /* Darker text for better readability */
+        }
+
+        /* Navigation Styling */
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #00796b; /* Teal color for navigation */
+        }
+
+        .nav ul li {
+            margin: 0 20px;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: #ffffff; /* White text for navigation links */
+            padding: 10px 20px;
+            background-color: #009688; /* Darker teal */
+        }
+
+        .nav ul li a:hover {
+            background-color: #004d40; /* Darker shade on hover */
+        }
+
+        /* Content Section */
+        .content {
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #ffffff; /* White background for content */
+            width: 80%;
+        }
+
+        /* Form Section */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        /* Footer Section */
+        .footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #00796b; /* Teal color for footer */
+            color: white;
+            text-align: center;
+        }
+
+        .footer img {
+            width: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <h1>Contact Us</h1>
+
+    <!-- Navigation Section -->
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or need assistance, feel free to reach out to us using the form below:</p>
+        
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <img src="logo.jpg" alt="Company Logo">
+        <p>© 2024 Shopping Hub. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
